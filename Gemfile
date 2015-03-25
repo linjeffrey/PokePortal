@@ -24,4 +24,5 @@ group :production do
   ruby '2.0.0'
   gem 'pg'
   gem 'thin'
+  gem 'rails_12factor'
 end
