@@ -1,0 +1,5 @@
+<h1>New Pokemon</h1>
+<%= simple_form_for @pokemon, :url => create_path do |f| %>
+  <%= f.input :name %>
+  <%= f.button :submit, "Create"%>
+<% end %>
