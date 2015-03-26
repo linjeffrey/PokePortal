@@ -1,4 +1,8 @@
+
+
+<center>
 <h3>Welcome to PokePortal</h3>
+<%= image_tag("pokeball.png", :alt => "pokeportal") %>
 <p><%= link_to 'Trainers:', trainers_path %> <%= Trainer.count %> registered</p>
 
 <% if @pokemon and current_trainer %>
@@ -8,3 +12,5 @@
 <% end %>
 
 <footer>Created by Jeffrey Lin @ UC Berkeley's Rails Decal</footer>
+<legal>This site is not endorsed by or affiliated with Pokemon. Pokemon, Pokemon names, and the Pokeball logo are registered trademarks of Nintendo. </legal>
+</center>
